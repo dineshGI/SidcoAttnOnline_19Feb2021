@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:id="@+id/gr1">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Parking"
+            android:visible="false"/>
+    </group>
+
+    <group android:id="@+id/gr2">
+        <item
+            android:id="@+id/fine"
+            android:title="Fine"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/gr3">
+        <item
+            android:id="@+id/settlement"
+            android:title="Settlement" />
+    </group>
+    <group android:id="@+id/gr">
+        <item
+            android:id="@+id/menu_dashboard"
+            android:title="Dashboard" />
+    </group>
+    <group android:id="@+id/gr4">
+        <item
+            android:id="@+id/report"
+            android:title="Report" />
+    </group>
+
+    <group android:id="@+id/gr5">
+        <item
+            android:id="@+id/report_expiry"
+            android:title="Expiry Report"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/gr6">
+        <item
+            android:id="@+id/verify_online"
+            android:title="Online Verify"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr7">
+        <item
+            android:id="@+id/cutomer_booking"
+            android:title="Customer Booking"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr8">
+        <item
+            android:id="@+id/transaction"
+            android:title="Transaction"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr9">
+        <item
+            android:id="@+id/change_password"
+            android:title="Change Password"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/gr10">
+        <item
+            android:id="@+id/Logout"
+            android:title="Logout"
+            android:visible="true" />
+    </group>
+
+</menu>

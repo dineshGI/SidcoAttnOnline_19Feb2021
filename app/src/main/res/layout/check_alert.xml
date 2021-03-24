@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/attendent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_primary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/img"
+        android:background="@color/colorPrimary" />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/line"
+        android:padding="5dp"
+        android:textColor="@color/text_primary"
+        android:textSize="19dp"/>
+    <TextView
+        android:id="@+id/extrahour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status"
+        android:padding="5dp"
+        android:textColor="@color/text_primary"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/addition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/extrahour"
+        android:padding="5dp"
+        android:textColor="@color/text_primary"
+        android:textSize="19dp" />
+    <TextView
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addition"
+        android:padding="5dp"
+        android:textColor="@color/text_primary"
+        android:textSize="19dp" />
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entry"
+        android:padding="5dp"
+        android:textColor="@color/text_primary"
+        android:textSize="19dp" />
+    <TextView
+        android:id="@+id/parking_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exit"
+        android:padding="5dp"
+        android:textColor="@color/text_primary"
+        android:textSize="19dp" />
+    <Button
+        android:id="@+id/okay"
+        style="@style/button"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/parking_hour"
+        android:layout_centerInParent="true"
+        android:text="Ok" />
+</RelativeLayout>

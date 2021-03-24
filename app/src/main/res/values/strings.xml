@@ -1,0 +1,217 @@
+<resources>
+
+    <string name="app_name">SIDCO Parking</string>
+    <string name="directory_name">onemgN</string>
+    <string name="version">1.0.0</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="want_to_logout">Are you sure, You want to logout?</string>
+    <string name="want_to_exit">Are you sure, You want to Exit?</string>
+    <string name="loading">Loading...</string>
+    <string name="select_vehicle_type">Select Vehicle Type</string>
+    <string name="not_equalto_zero">Fine amount should be greater than 0</string>
+
+    <string name="parknow">PARK NOW</string>
+    <string name="view_fine">VIEW FINE</string>
+    <string name="trans_history">TRANSACTION HISTORY</string>
+    <string name="add_vehicle">ADD VEHICLE</string>
+
+    <!--EditText Hint-->
+    <string name="hint_username">User Name</string>
+    <string name="search_vehno">Search by Vehicle No</string>
+    <string name="hint_password">Password</string>
+    <string name="enter_no">Enter Mobile Number</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_valid_no">Enter Valid mobile Number</string>
+    <string name="enable_gps">Your GPS seems to be disabled, Please enable it</string>
+    <string name="nopickup_available">No Pickup Available</string>
+    <string name="nocollect_available">No Collection Available</string>
+    <string name="nodelivery_available">No Delivery Available</string>
+    <string name="nodata_available">No Data Available</string>
+    <string name="cash_settlement">Cash Settlement</string>
+    <string name="r_u_sure">Are you sure, You want to Shift Out?</string>
+    <string name="shipment_date">Shipment Date: </string>
+    <string name="bag_id">Bag ID : </string>
+    <string name="pickup_zone">Pickup Zone: </string>
+    <string name="delivery_zone">Delivery Zone : </string>
+    <string name="total_pcs">Total Pcs : </string>
+    <string name="invoice">Invoice : </string>
+    <string name="tracking_stopped">Location Tracking stopped</string>
+    <string name="tracking_started">Location Tracking started</string>
+    <string name="check_internet">Please Check your Internet</string>
+    <string name="start_msg">Please click Shift In button to start work</string>
+    <string name="invalid_vehno">Invalid Vehicle No</string>
+    <string name="Vehicle_msg">Vehicle already Available</string>
+    <string name="Vehicle_not_msg">Vehicle Not Available</string>
+    <string name="vehno_verify">Enter Vehicel No to verify</string>
+    <string name="old_pass">OLD PASSWORD</string>
+    <string name="new_pass">NEW PASSWORD</string>
+    <string name="confirm_pass">CONFIRM PASSWORD</string>
+    <string name="payment_mode">PAYMENT MODE</string>
+    <string name="amount">AMOUNT</string>
+    <string name="veh_no">VEHICLE NO</string>
+    <string name="fine_type">FINE TYPE</string>
+    <string name="street">STREET</string>
+    <string name="slot">SLOT</string>
+    <string name="block">BLOCK</string>
+    <string name="attender">ATTENDER</string>
+    <string name="hour">HOUR</string>
+    <string name="date">DATE</string>
+    <string name="summary">SUMMARY</string>
+    <string name="password">Password</string>
+    <string name="select_date">Select Date</string>
+    <string name="enter_details_login">Please Enter Details to login</string>
+
+    <!--Buttons Name-->
+    <string name="signin">Sign In</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="upload">Upload</string>
+    <string name="server_empty">Server Empty</string>
+    <string name="product_not_found">Product Not Found</string>
+    <string name="server_error">Server Error</string>
+    <string name="timeout_error">TimeOut Error</string>
+    <string name="select_reason">Select Reason</string>
+    <string name="enter_bagid">Enter Bag ID</string>
+    <string name="enter_vehno">Enter Vehicle No</string>
+    <string name="enter_valid_mobileno">Enter Valid Mobile No</string>
+    <string name="value_not_greater">Fine Amount should not greater than</string>
+    <string name="mobileno_notfound">Mobile Number Not Found</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+
+   <!-- <string-array name="nav_item_activity_titles">
+        <item>PARKING</item>
+        <item>FINE</item>
+        <item>SETTLEMENT</item>
+        <item>REPORT</item>
+        <item>CHANGE PASSWORD</item>
+        <item>LOGOUT</item>
+
+    </string-array>-->
+
+    <string-array name="nav_item_activity_titles">
+        <item>PARKING</item>
+        <item>FINE</item>
+        <item>SETTLEMENT</item>
+        <item>REPORT</item>
+        <item>EXPIRY REPORT</item>
+        <item>ONLINE VERIFY</item>
+        <item>CUSTOMER BOOKING</item>
+        <item>TRANSACTION</item>
+        <item>CHANGE PASSWORD</item>
+        <item>LOGOUT</item>
+    </string-array>
+
+    <string name="map_apikey">AIzaSyBeigI5iExywf7LkBeLCkFBzjk-xFJYuTA</string>
+
+
+    <!-- AlertDialog Update Available -->
+    <string name="appverupdate_update_available">Available a new update!</string>
+    <string name="appverupdater_content_update_available">Update %1$s mobile app to version %2$s</string>
+    <string name="appverupdater_notes_update_available">Update %1$s mobile app to version %2$s \nFeatures: \n%3$s</string>
+    <string name="appverupdater_positivetext_update_available">Update</string>
+    <string name="appverupdater_negativetext_update_available">Later</string>
+    <!-- AlertDialog Not Update Available -->
+    <string name="appverupdate_not_update_available">No updates available!</string>
+    <string name="appverupdater_content_not_update_available">You have the latest version of the application</string>
+    <!-- ProgressDialog Update Available -->
+    <string name="appverupdater_progressdialog_message_update_available">Download</string>
+    <!-- AlertDialog Denied Permissin -->
+    <string name="appverupdater_denied_message">If you reject permission,you can not use this service</string>
+    <string name="digits">ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+
+    <!--Printer string-->
+   <!-- <string name="operation_result">Result</string>
+    <string name="input_command">Please Input Command</string>
+    <string name="execute_command">Execute Command</string>
+    <string name="watting">Please wait while checking driver version</string>
+    <string name="noPaper">No paper</string>
+    <string name="noPaperNotice">No paper, please put paper in and retry</string>
+    <string name="LowBattery">Low battery, please connect the charger!</string>
+    <string name="overTemp">over temp !</string>
+    <string name="ptintInit">Printer initialing... Please try again after a few seconds.</string>
+    <string name="dialog_comfirm">ConFirm</string>
+    <string name="maker_not_find">Cannot Find Black Block</string>
+    <string name="papercut">Paper Cut</string>-->
+    <string name="operation_fail">Operation failed</string>
+    <string name="idcard_czz">Proceeding...</string>
+
+    <!-- Print -->
+    <string name="print_test">Print Test</string>
+    <string name="printer_version">Printer Version：</string>
+    <string name="bar_code">Barcode:</string>
+    <string name="print_bar_code">Print Barcode</string>
+    <string name="D_bar_code">Qrcode:</string>
+    <string name="print_2D_barcode">Print Qrcode</string>
+    <string name="walk_paper_lines">Walk Paper Lines:</string>
+    <string name="walk_paper_test">Walk Paper</string>
+    <string name="left_margin">Left Margin:</string>
+    <string name="right_margin">Right Margin</string>
+    <string name="row_space">Row Space:</string>
+    <string name="font_size">Font Size：</string>
+    <string name="gray_level">Gray Level:</string>
+    <string name="print_content">Print Content：</string>
+    <string name="chinese_example">ZH Example</string>
+    <string name="english_example">EN Example</string>
+    <string name="fr_example">FR Example</string>
+    <string name="clear_text">Clear</string>
+    <string name="print_text">Print Text</string>
+    <string name="printing_wait">Printing, please wait……</string>
+    <string name="D_barcode_loading">Qrcode loading</string>
+    <string name="generate_barcode_wait">Generating barcode, please wait……</string>
+    <string name="input_print_data">Please input print data</string>
+    <string name="maker_search_distance">Walk Paper For Search Black Block:</string>
+    <string name="maker_walk_distance">Walk Paper After Haved Search:</string>
+    <string name="maker_walk_distance_range">(0-255)</string>
+    <string name="maker">Black Block Detection</string>
+    <string name="maker_error">maker input value not fit</string>
+    <string name="maker_not_find">Cannot Find Black Block</string>
+    <string name="papercut">Paper Cut</string>
+    <string name="walk_paper_intput_value">walk paper intput value not fit</string>
+    <string name="print_picture">Print Picture</string>
+    <string name="sure">sure</string>
+    <string name="not_find_picture">not find picture</string>
+    <string name="input_command">Please Input Command</string>
+    <string name="execute_command">Execute Command</string>
+    <string name="watting">Please wait while checking driver version</string>
+    <string name="noPaper">No paper</string>
+    <string name="noPaperNotice">No paper, please put paper in and retry</string>
+    <string name="LowBattery">Low battery, please connect the charger!</string>
+    <string name="overTemp">over temp !</string>
+    <string name="ptintInit">Printer initialing... Please try again after a few seconds.</string>
+    <string name="outOfLeft">Beyond the left margin！</string>
+    <string name="outOfLine">Beyond the row space！</string>
+    <string name="outOfFont">Beyond the font size！</string>
+    <string name="outOfGray">Beyond the gray level！</string>
+    <string name="outOfCharSpace">Beyond The Char Space！</string>
+    <string name="empty">The content is empty！</string>
+    <string name="lengthNotEnougth">The length is not enough！</string>
+    <string name="index_text">Print Text</string>
+    <string name="index_pic">Picture/Qrcode</string>
+    <string name="index_comm">Print Command</string>
+    <string name="input_content">input content</string>
+    <string name="dialog_comfirm">ConFirm</string>
+    <string name="ok">OK</string>
+    <string name="restar_printer">Reboot Printer</string>
+    <string name="operation_result">Result</string>
+    <string name="bl_dy">Print</string>
+    <string name="print_waring">Tip: If the SDK provides the function of can not meet your printing needs, you can send the print instruction way for implementation</string>
+    <string name="printer_type_common">SerialPort Printer</string>
+    <string name="printer_type_usb">USB Printer</string>
+    <string name="currency">\u20B9</string>
+    <string name="printer_type_select">Select Printer Type</string>
+    <string name="line">-------------------------</string>
+    <string name="line_big">------------------------------------------------</string>
+    <string name="mdg_by_gerek">Mgd by Gerak Kilat Parking P.Ltd</string>
+    <string name="pwd_by_giretail">Powered by GI Retail Pvt. Ltd</string>
+    <string name="parking_ownrisk">PARKING AT OWNERS RISK</string>
+    <string name="onstreet_parking">Onstreet Parking</string>
+    <string name="reprint_ticket">Reprint Ticket</string>
+</resources>

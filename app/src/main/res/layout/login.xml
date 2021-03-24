@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/version"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/attendent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyregister"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/terminalid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:backgroundTint="@color/white" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:backgroundTint="@color/white" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="LOGIN" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/rememberme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:checked="false"
+            android:text="@string/rememberme"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/forgetpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text="@string/forget_password"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/street"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border_gray">
+
+                    <Spinner
+                        android:id="@+id/street_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/red"
+                        android:padding="5dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <com.sidcoparking.utils.ExpandableHeightGridView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:isScrollContainer="false"
+                android:numColumns="3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/veh_no"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/vehicleno"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:maxLength="4"
+                        android:inputType="number"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/text_primary"
+                        android:textSize="18dp"
+                        app:backgroundTint="@color/text_primary">
+                        <requestFocus />
+                    </android.support.v7.widget.AppCompatEditText>
+
+                    <Button
+                        android:id="@+id/btn_verify"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:background="@color/colorAccent"
+                        android:text="Verify"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="MOBILE NO"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/mobileno"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:maxLength="10"
+                        android:inputType="number"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/text_primary"
+                        android:textSize="18dp"
+                        app:backgroundTint="@color/text_primary">
+                    </android.support.v7.widget.AppCompatEditText>
+
+                    <Button
+                        android:id="@+id/btn_onlineverify"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:background="@color/colorAccent"
+                        android:text="Online Verify"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/grace_hour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hour"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_gray">
+
+                    <Spinner
+                        android:id="@+id/hour_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/red"
+                        android:padding="5dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="FOC : "
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+               <!-- <Switch
+                    android:id="@+id/toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textOff="No"
+                    android:textOn="Yes"
+                    android:thumb="@drawable/switch_thumb"
+                    android:thumbTextPadding="15dp"
+                    android:track="@drawable/switch_track" />-->
+                <Switch
+                    android:id="@+id/toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textOff="No"
+                    android:textOn="Yes"
+                    android:layout_marginLeft="10dp"
+                    android:thumbTextPadding="15dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paymently"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payment_mode"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border_gray">
+
+                    <Spinner
+                        android:id="@+id/payment_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/red"
+                        android:padding="5dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amount"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18dp"
+                    app:backgroundTint="@color/text_primary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_clear"
+                    style="@style/button"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="Clear" />
+
+                <Button
+                    android:id="@+id/btn_addvehicle"
+                    style="@style/button"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="Print" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

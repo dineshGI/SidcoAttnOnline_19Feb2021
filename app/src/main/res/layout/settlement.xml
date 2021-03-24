@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/attender"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:background="@drawable/border_gray">
+
+                    <Spinner
+                        android:id="@+id/spin_attender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorAccent"
+                        android:padding="5dp"
+                        android:spinnerMode="dropdown"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <ListView
+                android:id="@+id/listview"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent" />
+            <Button
+                android:id="@+id/btn_collect"
+                style="@style/button"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="COLLECT" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

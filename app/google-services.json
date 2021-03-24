@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897725445333",
+    "project_id": "sidco-attendant",
+    "storage_bucket": "sidco-attendant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897725445333:android:532420a0c6f582c784de5c",
+        "android_client_info": {
+          "package_name": "com.sidcoparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897725445333-mjqn93fkqefrht8jfgm3b7lan03fh06c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGQCn6HWMw1CE4_Js8lu5ahWH0BhEzL5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897725445333-mjqn93fkqefrht8jfgm3b7lan03fh06c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STREET"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border_gray">
+
+                    <Spinner
+                        android:id="@+id/street_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/red"
+                        android:padding="5dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VEHICLE TYPE"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border_gray">
+
+                    <Spinner
+                        android:id="@+id/vehicletype_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/red"
+                        android:padding="5dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VEHICLE NO"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15dp" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/vehicleno"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:maxLength="10"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18dp"
+                    app:backgroundTint="@color/text_primary">
+
+                    <requestFocus />
+                </android.support.v7.widget.AppCompatEditText>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_check"
+                style="@style/button"
+                android:textSize="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Verify" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
